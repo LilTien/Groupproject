@@ -1,0 +1,4 @@
+Iphone 15 Pro Max,64,5990.00,Purple,NEW,80
+Iphone 14 plus,128,3999.0,Black,NEW,17
+Iphone 13 pro,256,4999.0,Black,NEW,67
+Iphone 12,256,2999.0,Red,NEW,40
