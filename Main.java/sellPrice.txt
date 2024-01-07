@@ -1,0 +1,37 @@
+Iphone 15;128;3600
+Iphone 15;256;4000
+Iphone 15;128;5000
+Iphone 15 Plus;128;3900
+Iphone 15 Plus;256;4300
+Iphone 15 Plus;128;5500
+Iphone 15 Pro;256;5000
+Iphone 15 Pro;256;5650
+Iphone 15 Pro;512;6000
+Iphone 15 Pro;1000;7000
+Iphone 15 Pro Max;256;5500
+Iphone 15 Pro Max;512;6800
+Iphone 15 Pro Max;1000;7800
+Iphone 14;128;2800
+Iphone 14;256;3200
+Iphone 14;512;4000
+Iphone 14 Plus;128;3300
+Iphone 14 Plus;256;3800
+Iphone 14 Plus;512;4800
+Iphone 14 Pro;128;3500
+Iphone 14 Pro;256;4000
+Iphone 14 Pro;512;5000
+Iphone 14 Pro Max;128;3800
+Iphone 14 Pro Max;256;4200
+Iphone 14 Pro Max;512;5200
+Iphone 13;128;1200
+Iphone 13;256;1500
+Iphone 13;512;2000
+Iphone 13 Plus;128;1500
+Iphone 13 Plus;256;1800
+Iphone 13 Plus;512;2000
+Iphone 13 Pro;128;1800
+Iphone 13 Pro;256;2000
+Iphone 13 Pro;512;2300
+Iphone 13 Pro Max;128;2000
+Iphone 13 Pro Max;256;2200
+Iphone 13 Pro Max;512;2500
