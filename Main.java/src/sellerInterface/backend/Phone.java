@@ -11,56 +11,63 @@ import java.util.Scanner;
 import java.util.StringTokenizer;
 
 public class Phone {
-    private String model; 
-    private String variant;
-    private float price;
-    private String color;
-    private String condition;
-    private int stock;
+    private static String model; 
+    private static String variant;
+    private static float price;
+    private static String color;
+    private static String condition;
+    private static int stock;
 
     // for Trade in or sell with condition
-    Phone(String model, String variant ,String color, String condition, float price){
-        this.model = model;
-        this.variant = variant;
-        this.price = price;
-        this.color = color;
-        this.condition = condition;
+    Phone(String m, String v ,String c, String cond, float p){
+        model = m;
+        variant = v;
+        price = p;
+        color = c;
+        condition = cond;
     }
     // without condition
-    Phone(String model, String variant, String color,float price ){
-        this.model = model;
-        this.variant = variant;
-        this.price = price;
-        this.color = color;
-        this.condition = "NEW";
+    Phone(String ml, String v, String c,float p ){
+        model = ml;
+        variant = v;
+        price = p;
+        color = c;
+        condition = "NEW";
+    }
+    //without price and stock
+    Phone(String m, String v, String c, String cond){
+        model = m;
+        variant = v;
+        color = c;
+        condition = cond;
     }
     //default 
     Phone(){
-        this.model = null;
-        this.variant = null;
-        this.price = 0.00f;
-        this.color = null;
-        this.condition = null;
+        model = null;
+        variant = null;
+        price = 0.00f;
+        color = null;
+        condition = null;
     }
     //getter
-    public String getModel(){
-        return this.model;
+    public static String getModel(){
+        return model;
     }
-    public String getVariant(){
-        return this.variant;
+    public static String getVariant(){
+        return variant;
     }
-    public String getColor(){
-        return this.color;
+    public static String getColor(){
+        return color;
     }
-    public float getPrice(){
-        return this.price;
+    public static float getPrice(){
+        return price;
     }
-    public String getCondition(){
-        return this.condition;
+    public static String getCondition(){
+        return condition;
     }
     //to string with condition
     public String toString(){
-        return "Model : "+this.model + "\nVariant : "+this.variant+"Color : "+this.color + "Condition : "+condition + "Price : RM"+this.price;
+        return "Model : "+model + "\nVariant : "+variant+"Color : "+color + "Condition : "+condition + "Price : RM"+price;
     }
 
     public static void showPhoneData() throws IOException{
